@@ -13,7 +13,7 @@
 .heading{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
-    color: white;
+    color: #27374D;
 }
 .paragraph{
     display: flex;
@@ -24,7 +24,7 @@
 .para{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    color: white;
+    color: #526D82;
 }
 .profile-card{
     display: flex;
@@ -33,13 +33,6 @@
 }
 .first-container{
     margin-left: 50px;
-}
-.heros{
-    background-color: #2D4356;
-
-}
-.about-me{
-    background-color: #435B66;
 }
 .second-container{
     display: flex;
@@ -51,12 +44,13 @@
 }
 .second-heading{
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: #27374D;
     padding-top: 100px;
+    padding-bottom: 85px;
 }
 .px-5{
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: #526D82;
     padding-top: 80px;
     text-align: center;
 }
@@ -85,7 +79,6 @@
     justify-content: center;
     align-items: center;
     grid-area: 2/2/3/3;
-    background-color: #A76F6F;
     border-radius: 50px;
 }
 .communication-image{
@@ -101,14 +94,9 @@
     justify-content: center;
     align-items: center;
     grid-area: 3/2/4/3;
-    background-color: #A76F6F;
     border-radius: 50px;
 }
-.footer{
-    background-color: #EAB2A0;
-}
 a{
-    color: #EAB2A0;
     text-decoration: none;
 }
 .fourth-container{
@@ -116,4 +104,10 @@ a{
     gap: 30px;
     justify-content: center;
     align-items: center;
+}
+.body{
+    background-image: url("./water_fall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
